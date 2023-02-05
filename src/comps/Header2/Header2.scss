@@ -1,0 +1,48 @@
+.header.black{
+    position: relative;
+    padding-bottom: 24px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+    .left{
+        ul{
+            li{
+                a{
+                    color: #181818;
+                }
+            }
+        }
+    }
+    .right{
+        .lang{
+            color: #181818;
+        }
+        .tel{
+            color: #181818;
+        }
+        .callback2{
+            color: #181818;
+        }
+    }
+    .logo-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin-right: 73px;
+        font-size: 26px;
+        line-height: 150%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        margin-top: -5px;
+        color: #181818;
+
+    }
+}
+.logo-wrapper.black{
+    color: #181818;
+}
+@media(max-width:1400px){
+    .header.black{
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+}

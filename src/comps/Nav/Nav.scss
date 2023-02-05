@@ -1,0 +1,209 @@
+.sitenav{
+    padding-bottom: 56px;
+    padding-top: 32px;
+    .top{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 48px;
+        
+    }
+    .icon{
+        max-width: 24px;
+        max-height: 24px;
+        svg{
+            width: 24px;
+            height: 24px;
+        }
+    }
+    .text{
+        margin-top: 5px;
+        font-size: 16px;
+        line-height: 115%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        color: #181818;
+        
+    }
+    .text.active{
+        font-size: 16px;
+        line-height: 115%;
+        color: #838383;
+        
+    }
+    .text::before{
+        content: url(../../img/greyarrow.svg);
+    }
+    .bottom{
+        font-size: 48px;
+        line-height: 150%;
+        /* or 72px */
+        
+        letter-spacing: 0.03em;
+        
+        /* main dark */
+        
+        color: #181818;
+    }
+}
+@media(max-width:1400px){
+    .container {
+        max-width: 1240px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .infilter {
+        align-items: center !important;
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+        padding-bottom: 60px;
+
+    }
+    .filter#opened {
+
+        transition: 0.3s;
+    }
+}
+@media(max-width:1000px){
+    .sitenav .text {
+        margin-top: 5px;
+        font-size: 12px;
+        line-height: 115%;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #181818;
+        white-space: nowrap;
+            overflow: hidden; /* Обрезаем содержимое */
+            text-overflow: ellipsis;
+        span{
+            
+            white-space: nowrap;
+            overflow: hidden; /* Обрезаем содержимое */
+            text-overflow: ellipsis;
+        }
+        &.active{
+            overflow: visible;
+            span{
+                white-space: visible;
+            }
+        }
+    }
+    .filter#opened {
+        transition: none !important;
+        padding-bottom: 0;
+    }
+    .filter {
+        transition: none !important;
+    }
+    .sitenav .top {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 24px;
+    }
+    .sitenav .bottom {
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.03em;
+        color: #181818;
+    }
+    .kill {
+        margin: 32px;
+        width: calc(100% - 64px) !important;
+        letter-spacing: 0.07em;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        text-transform: uppercase;
+        padding: 20px 0;
+        background: none;
+        border: 1px solid #d8d8d8;
+        border-radius: 3px;
+        color: #181818;
+    }
+    .sitenav .text.active {
+        font-size: 12px;
+        line-height: 115%;
+        color: #838383;
+    }
+    .sitenav .icon svg {
+        width: 16px;
+        height: 16px;
+    }
+    .filter__top {
+        padding: 0 0 !important;
+        background: none !important;
+        width: 100%;
+        gap: 8px;
+        margin-bottom: 20px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+    .filter__param button svg {
+        width: 24px;
+        height: 24px;
+    }
+    .filter__sort{
+        display: none;
+    }
+    .filter__param{
+        width: 100%;
+    }
+    .filter__top .left {
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .filter__top .right{
+        width: 100%;
+    }
+    .filter__param button {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: center;
+        
+        font-weight: 400;
+        font-size: 14px !important;
+        line-height: 150%;
+        letter-spacing: 0.03em;
+        color: #181818;
+        padding: 18px 0;
+        background: #fff !important;
+        position: relative;
+        svg{
+            position: absolute;
+            right: 8px;
+        }
+    }
+    .filter__top .right button {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 12px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        
+        letter-spacing: 0.03em;
+        font-weight: 400;
+        font-size: 14px !important;
+        line-height: 150%;
+        color: #181818 !important;
+        padding: 18px 0;
+        background: #fff !important;
+        position: relative;
+        svg{
+            position: absolute;
+            right: 8px;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.advantages {
+    width: 100%;
+    display: flex;
+    background: #ffffff;
+    border: 3px solid #eeeeee;
+    position: relative;
+    top: -80px;
+    &__item {
+        width: 33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 0;
+        gap: 25px;
+        position: relative;
+    }
+    &__item.center::before{
+        content: '';
+        position: absolute;
+        height: 75px;
+        width: 0.1px;
+        left: 0;
+        top: calc(50% - 37.5px);
+        background: #DADADA;
+    }
+    &__item.center::after{
+        content: '';
+        position: absolute;
+        height: 75px;
+        width: 0.1px;
+        right: 0;
+        top: calc(50% - 37.5px);
+        background: #DADADA;
+    }
+}

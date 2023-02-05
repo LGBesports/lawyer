@@ -1,0 +1,626 @@
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("SFProDisplay-Medium.eot");
+    src: local("SF Pro Display Medium"), local("SFProDisplay-Medium"),
+        url("SFProDisplay-Medium.eot?#iefix") format("embedded-opentype"),
+        url("SFProDisplay-Medium.woff2") format("woff2"), url("SFProDisplay-Medium.woff") format("woff"),
+        url("SFProDisplay-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("SFProDisplay-Heavy.eot");
+    src: local("SF Pro Display Heavy"), local("SFProDisplay-Heavy"),
+        url("SFProDisplay-Heavy.eot?#iefix") format("embedded-opentype"),
+        url("SFProDisplay-Heavy.woff2") format("woff2"), url("SFProDisplay-Heavy.woff") format("woff"),
+        url("SFProDisplay-Heavy.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("SFProDisplay-UltralightItalic.eot");
+    src: local("SF Pro Display UltralightItalic"), local("SFProDisplay-UltralightItalic"),
+        url("SFProDisplay-UltralightItalic.eot?#iefix") format("embedded-opentype"),
+        url("SFProDisplay-UltralightItalic.woff2") format("woff2"),
+        url("SFProDisplay-UltralightItalic.woff") format("woff"),
+        url("SFProDisplay-UltralightItalic.ttf") format("truetype");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("SFProDisplay-RegularItalic.eot");
+    src: local("SF Pro Display Regular Italic"), local("SFProDisplay-RegularItalic"),
+        url("SFProDisplay-RegularItalic.eot?#iefix") format("embedded-opentype"),
+        url("SFProDisplay-RegularItalic.woff2") format("woff2"), url("SFProDisplay-RegularItalic.woff") format("woff"),
+        url("SFProDisplay-RegularItalic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("SFProDisplay-Thin.eot");
+    src: local("SF Pro Display Thin"), local("SFProDisplay-Thin"),
+        url("SFProDisplay-Thin.eot?#iefix") format("embedded-opentype"), url("SFProDisplay-Thin.woff2") format("woff2"),
+        url("SFProDisplay-Thin.woff") format("woff"), url("SFProDisplay-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("SFProDisplay-Light.eot");
+    src: local("SF Pro Display Light"), local("SFProDisplay-Light"),
+        url("SFProDisplay-Light.eot?#iefix") format("embedded-opentype"),
+        url("SFProDisplay-Light.woff2") format("woff2"), url("SFProDisplay-Light.woff") format("woff"),
+        url("SFProDisplay-Light.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("SFProDisplay-BlackItalic.eot");
+    src: local("SF Pro Display Black Italic"), local("SFProDisplay-BlackItalic"),
+        url("SFProDisplay-BlackItalic.eot?#iefix") format("embedded-opentype"),
+        url("SFProDisplay-BlackItalic.woff2") format("woff2"), url("SFProDisplay-BlackItalic.woff") format("woff"),
+        url("SFProDisplay-BlackItalic.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("SFProDisplay-Bold.eot");
+    src: local("SF Pro Display Bold"), local("SFProDisplay-Bold"),
+        url("SFProDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("SFProDisplay-Bold.woff2") format("woff2"),
+        url("SFProDisplay-Bold.woff") format("woff"), url("SFProDisplay-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("SFProDisplay-Black.eot");
+    src: local("SF Pro Display Black"), local("SFProDisplay-Black"),
+        url("SFProDisplay-Black.eot?#iefix") format("embedded-opentype"),
+        url("SFProDisplay-Black.woff2") format("woff2"), url("SFProDisplay-Black.woff") format("woff"),
+        url("SFProDisplay-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("SFProDisplay-SemiboldItalic.eot");
+    src: local("SF Pro Display SemiboldItalic"), local("SFProDisplay-SemiboldItalic"),
+        url("SFProDisplay-SemiboldItalic.eot?#iefix") format("embedded-opentype"),
+        url("SFProDisplay-SemiboldItalic.woff2") format("woff2"), url("SFProDisplay-SemiboldItalic.woff") format("woff"),
+        url("SFProDisplay-SemiboldItalic.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("SFProDisplay-Ultralight.eot");
+    src: local("SF Pro Display Ultralight"), local("SFProDisplay-Ultralight"),
+        url("SFProDisplay-Ultralight.eot?#iefix") format("embedded-opentype"),
+        url("SFProDisplay-Ultralight.woff2") format("woff2"), url("SFProDisplay-Ultralight.woff") format("woff"),
+        url("SFProDisplay-Ultralight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("SFProDisplay-LightItalic.eot");
+    src: local("SF Pro Display LightItalic"), local("SFProDisplay-LightItalic"),
+        url("SFProDisplay-LightItalic.eot?#iefix") format("embedded-opentype"),
+        url("SFProDisplay-LightItalic.woff2") format("woff2"), url("SFProDisplay-LightItalic.woff") format("woff"),
+        url("SFProDisplay-LightItalic.ttf") format("truetype");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("SFProDisplay-ThinItalic.eot");
+    src: local("SF Pro Display ThinItalic"), local("SFProDisplay-ThinItalic"),
+        url("SFProDisplay-ThinItalic.eot?#iefix") format("embedded-opentype"),
+        url("SFProDisplay-ThinItalic.woff2") format("woff2"), url("SFProDisplay-ThinItalic.woff") format("woff"),
+        url("SFProDisplay-ThinItalic.ttf") format("truetype");
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("SFProDisplay-MediumItalic.eot");
+    src: local("SF Pro Display MediumItalic"), local("SFProDisplay-MediumItalic"),
+        url("SFProDisplay-MediumItalic.eot?#iefix") format("embedded-opentype"),
+        url("SFProDisplay-MediumItalic.woff2") format("woff2"), url("SFProDisplay-MediumItalic.woff") format("woff"),
+        url("SFProDisplay-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("SFProDisplay-Semibold.eot");
+    src: local("SF Pro Display Semibold"), local("SFProDisplay-Semibold"),
+        url("SFProDisplay-Semibold.eot?#iefix") format("embedded-opentype"),
+        url("SFProDisplay-Semibold.woff2") format("woff2"), url("SFProDisplay-Semibold.woff") format("woff"),
+        url("SFProDisplay-Semibold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("SFProDisplay-HeavyItalic.eot");
+    src: local("SF Pro Display HeavyItalic"), local("SFProDisplay-HeavyItalic"),
+        url("SFProDisplay-HeavyItalic.eot?#iefix") format("embedded-opentype"),
+        url("SFProDisplay-HeavyItalic.woff2") format("woff2"), url("SFProDisplay-HeavyItalic.woff") format("woff"),
+        url("SFProDisplay-HeavyItalic.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("SFProDisplay-Regular.eot");
+    src: local("SF Pro Display Regular"), local("SFProDisplay-Regular"),
+        url("SFProDisplay-Regular.eot?#iefix") format("embedded-opentype"),
+        url("SFProDisplay-Regular.woff2") format("woff2"), url("SFProDisplay-Regular.woff") format("woff"),
+        url("SFProDisplay-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("SFProDisplay-BoldItalic.eot");
+    src: local("SF Pro Display BoldItalic"), local("SFProDisplay-BoldItalic"),
+        url("SFProDisplay-BoldItalic.eot?#iefix") format("embedded-opentype"),
+        url("SFProDisplay-BoldItalic.woff2") format("woff2"), url("SFProDisplay-BoldItalic.woff") format("woff"),
+        url("SFProDisplay-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+body {
+    font-family: "SF Pro Display", sans-serif;
+}
+.header .left svg {
+    margin-right: 58px;
+}
+.header .right .tel {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.03em;
+    margin-right: 24px;
+    color: #ffffff;
+}
+.header .right .callback2 {
+    border: 1px solid #bea257;
+    border-radius: 3px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    background: none;
+    padding: 11px 17px;
+    color: #ffffff;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 56px;
+    padding-right: 58px;
+    gap: 20px;
+    padding-top: 24px;
+    z-index: 999;
+    .left {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        svg {
+            margin-right: 70px;
+        }
+        ul {
+            display: flex;
+            gap: 56.5px;
+            li a {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 150%;
+                /* or 27px */
+
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.03em;
+
+                /* white */
+
+                color: #ffffff;
+            }
+        }
+    }
+    .right {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        padding: 4px 0;
+        justify-content: flex-end;
+        .lang {
+            margin-right: 78px;
+            background: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 150%;
+            /* or 27px */
+
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.03em;
+
+            /* white */
+
+            color: #ffffff;
+        }
+        .tel {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 150%;
+            /* or 27px */
+
+            display: flex;
+            align-items: center;
+            text-align: right;
+            letter-spacing: 0.03em;
+
+            /* white */
+            margin-right: 24px;
+            color: #ffffff;
+        }
+        .callback {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 150%;
+            /* or 27px */
+
+            display: flex;
+            align-items: center;
+            text-align: right;
+            letter-spacing: 0.03em;
+
+            /* gold */
+            margin-right: 72px;
+            color: #bea257;
+            background: none;
+        }
+        .callback2 {
+            border: 1px solid #bea257;
+            border-radius: 3px;
+            letter-spacing: 0.07em;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 150%;
+            background: none;
+            padding: 12px 28px;
+            color: #ffffff;
+        }
+    }
+}
+@media(max-width:1700px){
+    .header .right .lang {
+        margin-right: 25px;
+        background: none;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        color: #ffffff;
+    }
+}
+@media(max-width:1600px){
+    .header .right .lang {
+        margin-right: 25px;
+        background: none;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        color: #ffffff;
+    }
+    .header .left ul {
+        display: flex;
+        gap: 20px;
+    }
+    .header {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 15px;
+        gap: 20px;
+        padding-top: 24px;
+    }
+    .header .right .callback {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        letter-spacing: 0.03em;
+        margin-right: 25px;
+        color: #bea257;
+        background: none;
+    }
+}
+.header .right .callback span, .header .right .tel {
+    font-size: 15px !important;
+}
+.header .left svg {
+    margin-top: -5px;
+}
+
+.logo-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-right: 73px;
+    font-size: 26px;
+    line-height: 150%;
+    /* or 39px */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    margin-top: -5px;
+    /* white */
+    
+    color: #FFFFFF;
+    svg{
+        width: 54px;
+        height: 54px;
+        margin-right: 0 !important;
+    }
+}
+.header .right .callback {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.03em;
+    margin-right: 50px;
+    color: #bea257;
+    background: none;
+}
+.header .right .lang {
+    margin-right: 78px;
+    background: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+.header .right .callback span {
+    border-bottom: 1px dashed #bea257;
+    font-weight: 400;
+    font-size: 16px ;
+    line-height: 150%;
+    /* or 27px */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.03em;
+    
+    /* gold */
+    
+    color: #BEA257;
+    
+}
+.header .right .tel {
+    font-weight: 500;
+    font-size: 16px ;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.03em;
+    margin-right: 24px;
+    color: #ffffff;
+}
+.header .right .lang {
+    margin-right: 45px;
+    background: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+.pc{
+    display: block !important;
+}
+.mob{
+    display: none !important;
+}
+.mobf{
+    display: none !important;
+}
+@media(max-width:1400px){
+    
+    .mob{
+        display: block !important;
+    }
+    .mobf{
+        display: flex !important;
+    }
+    .pc{
+        display: none !important; 
+    }
+    .pcf{
+        display: none !important;
+    }
+    .header .left svg {
+        margin-right: 35px;
+    }
+    .header .right {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        padding: 4px 0;
+        justify-content: flex-end;
+    }
+    
+    .header .right .tel {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        letter-spacing: 0.03em;
+        margin-right: 24px;
+        color: #ffffff;
+    }
+    .header .right .callback {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        letter-spacing: 0.03em;
+        margin-right: 25px;
+        color: #bea257;
+        background: none;
+    }
+    .header .right .callback2 {
+        border: 1px solid #bea257;
+        border-radius: 3px;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 150%;
+        background: none;
+        padding: 8px 18px;
+        color: #ffffff;
+    }
+}
+@media(max-width:1400px){
+    .header .left ul li a {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        color: #ffffff;
+    }
+    .header .right {
+        width: 70%;
+        display: flex;
+        align-items: center;
+        padding: 4px 0;
+        justify-content: flex-end;
+    }
+}
+@media(max-width:1400px){
+    .header .right{
+        display: none;
+    }
+    .header .left{
+        display: none;
+    }
+    .headermob{
+        width: 100%;
+        padding-top: 18px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .callback{
+            margin-right: 20px;
+            background: none;
+            svg{
+                width: 28px;
+            }
+        }
+        .open{
+            background: none;
+            svg{
+                width: 28px;
+
+            }
+        }
+    }
+    
+}

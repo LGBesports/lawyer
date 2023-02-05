@@ -1,0 +1,110 @@
+.personal{
+    padding-top: 80px;
+    padding-bottom: 120px;
+    .card{
+        width: 287px;
+        &__info{
+            border: 3px solid #EEEEEE;
+            margin-top: 8px;
+            padding-top: 20px;
+            padding-left: 24px;
+            margin-top: 24px;
+            padding-right: 24px;
+            padding-bottom: 24px;
+            h3{
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 135%;
+                /* or 27px */
+                white-space: pre;
+                letter-spacing: 0.03em;
+                
+                /* main dark */
+                margin-bottom: 16px;
+                color: #181818;
+                
+            }
+            span{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 150%;
+                /* or 21px */
+                
+                letter-spacing: 0.03em;
+                display: block;
+                /* additional gray */
+                margin-bottom: 24px;
+                color: #838383;
+            }
+        }
+        &__contacts{
+            padding: 10px 0;
+            border-top: 1px solid #EEEEEE;
+            border-bottom: 1px solid #EEEEEE;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            margin-bottom: 20px;
+            a{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                svg{
+                    width: 22px;
+                }
+            }
+            .mail{
+                font-size: 14px;
+                line-height: 160%;
+                /* or 22px */
+                
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.03em;
+                
+                /* main dark */
+                
+                color: #181818;
+            }
+            .mail:hover{
+                text-decoration: underline;
+            }
+            a{
+                font-size: 14px;
+                line-height: 160%;
+                /* or 22px */
+                
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.03em;
+                
+                /* main dark */
+                
+                color: #181818;
+                
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+        }
+        
+    }
+    .consult{
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 180%;
+        /* identical to box height, or 23px */
+        gap: 12px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        
+        /* gold */
+        
+        color: #BEA257;
+        
+    }
+}

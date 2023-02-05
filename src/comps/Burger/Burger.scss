@@ -1,0 +1,163 @@
+.burger-menu{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    
+    z-index: 999;
+}
+.app{
+    position: relative;
+}
+.burger__bottom{
+    min-height: calc(100vh - 600px);
+    width: 100%;
+    position: fixed;
+    top: 600px;
+    left: 0;
+    background: rgba(30, 30, 30, 0.61);
+}
+.burger__top{
+    width: 100%;
+    height: 600px;
+    background: #FFFFFF;
+    position: relative;
+    .burger-close{
+        position: absolute;
+        top: 18px;
+        right: 20px;
+        background: none;
+        width: 28px;
+        height: 28px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .choose{
+        padding-top: 42px;
+        margin-left: 40px;
+        margin-bottom: 40px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        /* or 30px */
+        
+        letter-spacing: 0.03em;
+        
+        /* additional gray */
+        
+        color: #838383;
+        
+        button{
+            background: none;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 150%;
+            /* or 30px */
+            
+            letter-spacing: 0.03em;
+            
+            /* additional gray */
+            
+            color: #838383;
+            
+        }
+    }
+    ul{
+        margin-left: 40px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+        gap: 20px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        /* or 30px */
+        
+        letter-spacing: 0.03em;
+        
+        /* main dark */
+        
+        color: #181818;
+        li a{
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 150%;
+            /* or 30px */
+            
+            letter-spacing: 0.03em;
+            
+            /* main dark */
+            
+            color: #181818;
+        }
+    }
+    .popbutton{
+        padding: 20px 40px;
+        border-top:1px solid #EEEEEE;
+        border-bottom:1px solid #EEEEEE;
+        margin-bottom: 28px;
+        button{
+            width: 100%;
+            padding: 12px 67px;
+            background: none;
+            border: 1px solid #BEA257;
+            border-radius: 3px;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 150%;
+            letter-spacing: 0.07em;
+            text-transform: uppercase;
+            color: #BEA257;
+            
+        }
+    }
+    .contacts{
+        .tel{
+            margin-left: 40px;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+            /* or 30px */
+            
+            letter-spacing: 0.03em;
+            
+            /* main dark */
+            
+            color: #181818;
+        }
+        button{
+            display: block;
+            margin-left: 40px;
+            margin-top: 5px;
+            background: none;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 150%;
+            /* or 27px */
+            
+            letter-spacing: 0.03em;
+            
+            /* gold */
+            border-bottom: 1px dashed #BEA257;
+            color: #BEA257;
+            
+        }
+    }
+    .socials{
+        margin-top: 28px;
+        margin-left: 40px;
+        display: flex;
+        gap: 20px;
+        a{
+            width: 32px;
+            height: 32px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
